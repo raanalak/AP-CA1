@@ -11,7 +11,7 @@ public class NaughtyStudent {
         int counter = 0;
         int courentMax = height[0];
         for (int i = 1; i < height.length; i++){
-            if (height[i] < courentMax) {
+            if (height[i] <= courentMax) {
                 counter++;
             }
             else {
